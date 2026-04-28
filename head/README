@@ -1,0 +1,14 @@
+head
+---
+From https://github.com/mmp/pbrt-v4-scenes
+
+Converted via https://github.com/mos9527/pbrt-v4-Blender-Importer
+Exported via https://github.com/mos9527/Foundation-Blender-IO
+
+WARNING
+===
+Please note this is NOT standarized glTF file format, due to the usage of the following non-ratified extensions:
+- EXT_lights_area
+- EXT_materials_subsurface
+
+Refer to https://github.com/mos9527/Foundation-Blender-IO for implementation details.
