@@ -10,5 +10,6 @@ WARNING
 Please note this is NOT standarized glTF file format, due to the usage of the following non-ratified extensions:
 - EXT_lights_area
 - EXT_materials_subsurface
+- EXT_camera_lens
 
 Refer to https://github.com/mos9527/Foundation-Blender-IO for implementation details.

@@ -1,0 +1,11 @@
+Ferrari SF90 Spider
+---
+Model by Polara 3D
+https://www.blenderkit.com/asset-gallery-detail/53c5f63d-f238-4965-b7fd-a6d8a2682af4
+
+WARNING
+===
+Please note this is NOT standarized glTF file format, due to the usage of the following non-ratified extensions:
+- EXT_camera_lens
+
+Refer to https://github.com/mos9527/Foundation-Blender-IO for implementation details.

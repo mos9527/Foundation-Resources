@@ -5,6 +5,7 @@
 	},
 	"extensionsUsed":[
 		"EXT_lights_area",
+		"EXT_camera_lens",
 		"EXT_materials_subsurface"
 	],
 	"extensionsRequired":[
@@ -65,15 +66,15 @@
 			"camera":0,
 			"name":"head_camera",
 			"rotation":[
-				-0.12838687002658844,
+				-0.12838681042194366,
 				-0.22177988290786743,
-				0.05305924266576767,
+				0.053059231489896774,
 				0.9651504158973694
 			],
 			"translation":[
-				-0.2597757875919342,
-				0.0902651697397232,
-				0.5089194774627686
+				-0.259775847196579,
+				0.09026463329792023,
+				0.5089196562767029
 			]
 		},
 		{
@@ -89,6 +90,13 @@
 	],
 	"cameras":[
 		{
+			"extensions":{
+				"EXT_camera_lens":{
+					"sensorSize":24,
+					"fStop":2.799999952316284,
+					"focusDistance":0.5730000138282776
+				}
+			},
 			"name":"head_camera",
 			"perspective":{
 				"aspectRatio":1.7777777777777777,
