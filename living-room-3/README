@@ -1,3 +1,10 @@
 living-room-3
 ---
 From https://benedikt-bitterli.me/resources/
+
+WARNING
+===
+Please note this is NOT standarized glTF file format, due to the usage of the following non-ratified extensions:
+- EXT_lights_area
+
+Refer to https://github.com/mos9527/Foundation-Blender-IO for implementation details.

@@ -6,7 +6,8 @@
 	"extensionsUsed":[
 		"EXT_lights_area",
 		"EXT_camera_lens",
-		"EXT_materials_subsurface"
+		"EXT_materials_subsurface",
+		"KHR_materials_specular"
 	],
 	"extensionsRequired":[
 		"EXT_lights_area"
@@ -51,10 +52,10 @@
 			},
 			"name":"Area",
 			"rotation":[
-				-0.30070579051971436,
+				-0.3007057309150696,
 				0,
 				0,
-				0.9537169933319092
+				0.953717052936554
 			],
 			"translation":[
 				0,
@@ -66,9 +67,9 @@
 			"camera":0,
 			"name":"head_camera",
 			"rotation":[
-				-0.12838681042194366,
+				-0.1283867061138153,
 				-0.22177988290786743,
-				0.053059231489896774,
+				0.05305924266576767,
 				0.9651504158973694
 			],
 			"translation":[
@@ -81,10 +82,10 @@
 			"mesh":0,
 			"name":"plymesh_0000",
 			"rotation":[
-				0.7071068286895752,
+				0.70710688829422,
 				0,
 				0,
-				0.7071068286895752
+				0.7071066498756409
 			]
 		}
 	],
@@ -94,13 +95,16 @@
 				"EXT_camera_lens":{
 					"sensorSize":24,
 					"fStop":2.799999952316284,
-					"focusDistance":0.5730000138282776
+					"focusDistance":0.5730000138282776,
+					"apertureBlades":0,
+					"apertureRotation":0,
+					"apertureRatio":1
 				}
 			},
 			"name":"head_camera",
 			"perspective":{
 				"aspectRatio":1.7777777777777777,
-				"yfov":0.299190881304875,
+				"yfov":0.299190878868103,
 				"zfar":1000,
 				"znear":0.10000000149011612
 			},
@@ -112,7 +116,7 @@
 			"doubleSided":true,
 			"extensions":{
 				"EXT_materials_subsurface":{
-					"subsurfaceMethod":"christensenBurley",
+					"subsurfaceMethod":"randomWalk",
 					"subsurfaceWeight":1,
 					"subsurfaceRadius":[
 						1,
@@ -120,6 +124,9 @@
 						0.10000000149011612
 					],
 					"subsurfaceScale":0.05000000074505806
+				},
+				"KHR_materials_specular":{
+					"specularFactor":0.10000000149011612
 				}
 			},
 			"name":"subsurface_543c0984",
@@ -127,7 +134,8 @@
 				"baseColorTexture":{
 					"index":0
 				},
-				"metallicFactor":0
+				"metallicFactor":0,
+				"roughnessFactor":0
 			}
 		}
 	],
