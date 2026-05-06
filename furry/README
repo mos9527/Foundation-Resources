@@ -1,0 +1,12 @@
+furry
+---
+Standford bunny with fur.
+
+Replica of https://www.pbr-book.org/4ed/Shapes/Curves#fig:furry-bunny
+
+WARNING
+===
+Please note this is NOT standarized glTF file format, due to the usage of the following non-ratified extensions:
+- EXT_foundation_curves
+
+Refer to https://github.com/mos9527/Foundation-Blender-IO for implementation details.
