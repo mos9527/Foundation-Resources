@@ -4,6 +4,7 @@
 		"version":"2.0"
 	},
 	"extensionsUsed":[
+		"EXT_foundation_materials",
 		"EXT_foundation_curves",
 		"KHR_lights_punctual"
 	],
@@ -16,10 +17,10 @@
 			"curves":[
 				{
 					"name":"Curves",
-					"basis":"linear",
-					"renderMode":"capsule",
+					"basis":"bezier",
 					"points":4,
-					"curveVertexCounts":5
+					"curveVertexCounts":5,
+					"material":1
 				}
 			]
 		},
@@ -31,7 +32,7 @@
 						1,
 						1
 					],
-					"intensity":3415,
+					"intensity":6830,
 					"type":"directional",
 					"name":"Sun"
 				}
@@ -61,9 +62,9 @@
 				0.9891905784606934
 			],
 			"translation":[
-				-5.486425876617432,
-				10.765503883361816,
-				37.01348114013672
+				-4.524200916290283,
+				9.150585174560547,
+				30.797910690307617
 			]
 		},
 		{
@@ -123,6 +124,11 @@
 	"materials":[
 		{
 			"doubleSided":true,
+			"extensions":{
+				"EXT_foundation_materials":{
+					"shaderBlock":"principled"
+				}
+			},
 			"name":"Material",
 			"pbrMetallicRoughness":{
 				"baseColorFactor":[
@@ -132,6 +138,19 @@
 					1
 				],
 				"metallicFactor":0
+			}
+		},
+		{
+			"doubleSided":true,
+			"extensions":{
+				"EXT_foundation_materials":{
+					"shaderBlock":"principled"
+				}
+			},
+			"name":"Fur Material",
+			"pbrMetallicRoughness":{
+				"metallicFactor":0,
+				"roughnessFactor":0.4999999701976776
 			}
 		}
 	],
@@ -189,7 +208,7 @@
 		{
 			"bufferView":4,
 			"componentType":5126,
-			"count":1199208,
+			"count":3397756,
 			"type":"VEC4"
 		},
 		{
@@ -226,18 +245,18 @@
 		},
 		{
 			"buffer":0,
-			"byteLength":19187328,
+			"byteLength":54364096,
 			"byteOffset":2464
 		},
 		{
 			"buffer":0,
 			"byteLength":399736,
-			"byteOffset":19189792
+			"byteOffset":54366560
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":19589528,
+			"byteLength":54766296,
 			"uri":"furry.bin"
 		}
 	]

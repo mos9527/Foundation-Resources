@@ -1,0 +1,13 @@
+groom
+---
+Hair from Blender's https://www.blender.org/download/demo/geometry-nodes/hair_nodes-female_hair_styles.blend/
+
+Demonstrating Bezier curve rendering & Path-traced Single-scatter Chiang Hair model
+
+WARNING
+===
+Please note this is NOT standarized glTF file format, due to the usage of the following non-ratified extensions:
+- EXT_foundation_curves
+- EXT_foundation_materials
+
+Refer to https://github.com/mos9527/Foundation-Blender-IO for implementation details.
