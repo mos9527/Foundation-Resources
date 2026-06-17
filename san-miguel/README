@@ -1,3 +1,12 @@
 san-miguel
 ---
 From https://casual-effects.com/data/
+
+WARNING
+===
+Please note this is NOT standarized glTF file format, due to the usage of the following non-ratified extensions:
+- EXT_foundation_colormanagement
+- EXT_foundation_lights
+- EXT_foundation_environment
+
+Refer to https://github.com/mos9527/Foundation-Blender-IO for implementation details.
