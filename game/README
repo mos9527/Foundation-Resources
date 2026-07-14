@@ -1,0 +1,11 @@
+game
+---
+The Open Chess Set, replicating the shot from https://materialx.org/index.html
+
+WARNING
+===
+Please note this is NOT standarized glTF file format, due to the usage of the following non-ratified extensions:
+- EXT_foundation_environment
+- EXT_foundation_colormanagement
+
+Refer to https://github.com/mos9527/Foundation-Blender-IO for implementation details.
