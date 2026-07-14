@@ -24,7 +24,7 @@
 			"extensions":{
 				"EXT_foundation_environment":{
 					"type":"hdri",
-					"uri":"outDoor.hdr",
+					"uri":"outdoor.hdr",
 					"projection":"longlat",
 					"strength":1
 				}
