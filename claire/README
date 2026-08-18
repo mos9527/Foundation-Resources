@@ -1,0 +1,19 @@
+claire
+---
+Demo character from RTX Character Rendering. Ported for Foundation.
+
+From https://github.com/NVIDIA-RTX/RTXCR
+
+Demonstrating realistic human hair & skin rendering.
+
+WARNING
+===
+Please note this is NOT standarized glTF file format, due to the usage of the following non-ratified extensions:
+- EXT_foundation_curves
+- EXT_foundation_environment
+- EXT_foundation_materials
+- EXT_foundation_curves
+- EXT_foundation_colormanagement
+- EXT_materials_subsurface
+
+Refer to https://github.com/mos9527/Foundation-Blender-IO for implementation details.
