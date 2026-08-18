@@ -1,0 +1,13 @@
+abandoned
+---
+Section of Unfinshed Building by Quixel Megascans
+
+From https://fab.com/s/f6d9a80dda16
+
+WARNING
+===
+Please note this is NOT standarized glTF file format, due to the usage of the following non-ratified extensions:
+- EXT_foundation_camera
+- EXT_foundation_colormanagement
+
+Refer to https://github.com/mos9527/Foundation-Blender-IO for implementation details.
