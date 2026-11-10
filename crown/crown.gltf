@@ -118,9 +118,9 @@
 				"EXT_foundation_environment":{
 					"type":"color",
 					"color":[
-						0.05087608844041824,
-						0.05087608844041824,
-						0.05087608844041824
+						0,
+						0,
+						0
 					],
 					"strength":1
 				}
@@ -919,8 +919,7 @@
 				789,
 				790,
 				791,
-				792,
-				793
+				792
 			]
 		}
 	],
@@ -1043,20 +1042,15 @@
 			"camera":0,
 			"name":"crown_camera",
 			"rotation":[
-				-0.9967867732048035,
-				0,
-				0,
-				0.08010177314281464
-			],
-			"scale":[
-				-0.10000000149011612,
-				-0.09999999403953552,
-				-0.09999999403953552
+				0.10609640926122665,
+				-0.18117189407348633,
+				0.01966378651559353,
+				0.9775140285491943
 			],
 			"translation":[
-				0,
-				0.4787006378173828,
-				2.840764045715332
+				-1.5478652715682983,
+				-0.23545801639556885,
+				4.486748218536377
 			]
 		},
 		{
@@ -12848,29 +12842,14 @@
 				0.10000000149011612,
 				0.10000000149011612
 			]
-		},
-		{
-			"mesh":786,
-			"name":"sphere_0006",
-			"rotation":[
-				0.7071068286895752,
-				0,
-				0,
-				0.7071068286895752
-			],
-			"scale":[
-				0.10000000149011612,
-				0.10000000149011612,
-				0.10000000149011612
-			]
 		}
 	],
 	"cameras":[
 		{
 			"name":"crown_camera",
 			"perspective":{
-				"aspectRatio":0.7142857142857143,
-				"yfov":0.8203047513961792,
+				"aspectRatio":1.7777777777777777,
+				"yfov":0.4797457368678902,
 				"zfar":1000,
 				"znear":0.10000000149011612
 			},
@@ -13793,21 +13772,6 @@
 				],
 				"metallicFactor":0,
 				"roughnessFactor":0.20000000298023224
-			}
-		},
-		{
-			"doubleSided":true,
-			"extensions":{
-				"EXT_foundation_materials":{
-					"shaderBlock":"principled"
-				}
-			},
-			"name":"diffuse_d57a95c7",
-			"pbrMetallicRoughness":{
-				"baseColorTexture":{
-					"index":1
-				},
-				"metallicFactor":0
 			}
 		}
 	],
@@ -24030,29 +23994,12 @@
 					"material":45
 				}
 			]
-		},
-		{
-			"name":"sphere_0006",
-			"primitives":[
-				{
-					"attributes":{
-						"POSITION":1773,
-						"NORMAL":1774
-					},
-					"indices":1775,
-					"material":46
-				}
-			]
 		}
 	],
 	"textures":[
 		{
 			"sampler":0,
 			"source":0
-		},
-		{
-			"sampler":0,
-			"source":1
 		}
 	],
 	"images":[
@@ -24060,11 +24007,6 @@
 			"mimeType":"image/png",
 			"name":"Image",
 			"uri":"Image.png"
-		},
-		{
-			"mimeType":"image/png",
-			"name":"background",
-			"uri":"background.png"
 		}
 	],
 	"accessors":[
@@ -42565,34 +42507,6 @@
 			"componentType":5123,
 			"count":25350,
 			"type":"SCALAR"
-		},
-		{
-			"bufferView":1773,
-			"componentType":5126,
-			"count":482,
-			"max":[
-				99.99998474121094,
-				100,
-				99.99996948242188
-			],
-			"min":[
-				-99.99995422363281,
-				-100,
-				-100
-			],
-			"type":"VEC3"
-		},
-		{
-			"bufferView":1774,
-			"componentType":5126,
-			"count":482,
-			"type":"VEC3"
-		},
-		{
-			"bufferView":1775,
-			"componentType":5123,
-			"count":2880,
-			"type":"SCALAR"
 		}
 	],
 	"bufferViews":[
@@ -53233,24 +53147,6 @@
 			"byteLength":50700,
 			"byteOffset":56674944,
 			"target":34963
-		},
-		{
-			"buffer":0,
-			"byteLength":5784,
-			"byteOffset":56725644,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":5784,
-			"byteOffset":56731428,
-			"target":34962
-		},
-		{
-			"buffer":0,
-			"byteLength":5760,
-			"byteOffset":56737212,
-			"target":34963
 		}
 	],
 	"samplers":[
@@ -53261,7 +53157,7 @@
 	],
 	"buffers":[
 		{
-			"byteLength":56742972,
+			"byteLength":56725644,
 			"uri":"crown.bin"
 		}
 	]
